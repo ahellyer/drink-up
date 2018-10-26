@@ -12,3 +12,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+img {
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+}
+.sidebar {
+  width: 30%;
+  background: lightskyblue;
+}
+
+.drinks {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  background: lightcyan;
+}
+
+
+.drinks__drink-container {
+  width: 20%;
+}
+
+
+
+
